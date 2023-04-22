@@ -1,0 +1,46 @@
+#container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(145deg, rgb(5, 3, 48) 0%, rgb(0, 115, 138) 100%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+
+#chat{
+    width: 60vw;
+    height: 70vh;
+    background-color: #00ffff4d;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 20px;
+}
+
+#form{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(180, 255, 236, 0.473);
+    border-radius: 20px;
+}
+
+.message{
+    border: 2px solid blue;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    background-color: rgba(127, 255, 212, 50%);
+    font-size: large;
+    color:rgb(34, 29, 121);
+}
